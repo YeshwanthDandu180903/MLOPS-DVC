@@ -1,0 +1,4 @@
+1. Cloning the git repository that you have created for the MLOPS project setup for DVC.
+2.creating a my_code.py file and lets try to write the code for converting the data into csv file
+3.Do a git add comit -push before intialising dvc
+
