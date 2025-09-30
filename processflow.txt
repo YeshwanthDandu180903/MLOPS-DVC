@@ -1,4 +1,13 @@
 1. Cloning the git repository that you have created for the MLOPS project setup for DVC.
 2.creating a my_code.py file and lets try to write the code for converting the data into csv file
 3.Do a git add comit -push before intialising dvc
-
+#pip install dvc
+4.Now we will do "dvc init" (creates .dvcignore,.dvc)
+5.Now we should create the mkdir s3
+6.Now we do "dvc remote add -d myremote s3"
+7.next 'dvc add data/"-
+    if gives an error then
+                try to stop tracking the data by git and rm it from tracking and then try to run the command it will work
+    if dvc tracking is started then try to run the command below for the 
+            git add .gitignore data.dvc
+8.check the git status and run the command git log --oneline
