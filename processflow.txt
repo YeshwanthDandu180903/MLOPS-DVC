@@ -11,3 +11,5 @@
     if dvc tracking is started then try to run the command below for the 
             git add .gitignore data.dvc
 8.check the git status and run the command git log --oneline
+9.now dvc status,dvc commit and then dvc push
+10.do a git add-commit -push to mark this stage as first version of data
